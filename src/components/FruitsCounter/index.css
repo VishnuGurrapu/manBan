@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 20px;
+}
+.count {
+  color: #ffd569;
+}
+.bgCon {
+  background-color: #ffd569;
+ 
+  padding: 45px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.count {
+  color: #ffd569;
+}
+.img {
+  height: 250px;
+}
+@media (max-width: 767px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
